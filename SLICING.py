@@ -1,0 +1,11 @@
+s="HELLO@DEAR@STUDENT"
+print(s[0:-5:-1])
+# print(s[-1:-5:-1])
+# print(s[-1:-5])
+# print(s[-1])
+# print(s[-5])
+# print(s[-1:4])
+# print(s[8:2])
+# print(s[2:3])
+# print(s[0:-15:-2])
+# print(s[1:15:2])
