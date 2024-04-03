@@ -7,7 +7,7 @@ def get_move():
     move = input("Enter your move: ")
     return move
 
-def main():ṇ
+def main():
     board = chess.Board()
 
     while not board.is_checkmate():
