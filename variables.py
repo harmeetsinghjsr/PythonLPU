@@ -19,3 +19,7 @@ x = 5
 y = "John"
 print(type(x))
 print(type(y))
+
+x=1
+y="OK"
+print(y,x)
