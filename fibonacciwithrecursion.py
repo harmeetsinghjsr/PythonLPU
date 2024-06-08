@@ -7,6 +7,6 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
 
 # Test the function
-num_terms = 10
+num_terms = int(input("Enter the number of terms: "))
 for i in range(num_terms):
     print(fibonacci(i))
