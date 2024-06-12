@@ -2,7 +2,7 @@ import pyautogui, time
 
 time.sleep(5)
 
-f = open("answer.txt", 'r')
+f = open("C:/Users/hs978/CodeSpace/Python Programs/answer.txt", 'r')
 
 for line in f:
     pyautogui.typewrite(line.strip())
