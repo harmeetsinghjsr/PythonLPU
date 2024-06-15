@@ -3,7 +3,6 @@ import pygame
 import chess
 import math
 
-
 #initialise display
 X = 800
 Y = 800
@@ -34,4 +33,4 @@ pieces = {'p': pygame.image.load('b_pawn.png').convert(),
           'Q': pygame.image.load('w_queen.png').convert(),
           'K': pygame.image.load('w_king.png').convert(),
           
-          }
+}
