@@ -10,7 +10,7 @@ if(a>b):
            print("D is big")
    else:
        if(c>d):
-           print("C is big ")
+            print("C is big ")
        else:
            print("D is big")
 else:
