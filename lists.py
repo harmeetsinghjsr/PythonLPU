@@ -41,3 +41,13 @@ print("Reversed list:", my_list)  # Output: [10, 3, 2]
 # Clearing a list
 my_list.clear()
 print("Cleared list:", my_list)  # Output: []
+
+#delete
+list1 = [1, 2, 3]
+del list1
+print("Deleted list:", my_list)  # Error: NameError: name 'my_list' is not defined
+
+#pop 
+list1 = [1, 2, 3]
+list1.pop()
+print("List after pop:", list1)  # Output: [1, 2]
